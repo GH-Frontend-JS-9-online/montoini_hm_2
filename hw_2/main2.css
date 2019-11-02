@@ -1,0 +1,268 @@
+main {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 5%;
+	background-color: #194277;
+	display: flex;
+	
+}
+
+.box {
+	justify-content: flex-start;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-left: 40%;
+}
+
+.my-button {
+	width: 112px;
+	height: 30px;
+	border-radius: 15px;
+	border: 0;
+	background-color: #ffffff;
+	color: #194277;
+	font-family: Lato;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 16.36px;
+	letter-spacing: 0.55px;
+	margin-top: 15px;
+	margin-left: 51px;
+}
+
+.my-button:hover {
+	background-color: #3c84fe;
+	color: white; 
+}
+
+.first {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+	background-color:#3695ff;
+    background-image: linear-gradient(45deg, #3695ff 20%, #469dff 20% 40%, #4098ff 40% 60%, #3c89fe 60% 80%, #357afd 80%);
+}
+
+.my-list {
+	width: 25px;
+	height: 19px;
+	margin-top: 30px;
+	margin-left: 750px;
+}
+
+h1 {
+	width: 809px;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 60px;
+	text-transform: uppercase;
+	letter-spacing: 1.25px;
+	text-align: center;
+	margin: 52px 0 auto; 
+}
+
+.main-title {
+	width: 765px;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 35px;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+	text-align: center;
+}
+
+.two-button {
+	width: 204px;
+	height: 55px;
+	border-radius: 28px;
+	border: 0;
+	background-color: #ffffff;
+	color: #3695ff;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+	margin-top: 75px;
+	margin-bottom: 92px; 
+}
+
+.two-button:hover {
+	background-color: #2e6da4;
+	color: white; 
+}
+
+.my-arrow {
+	width: 19px;
+	height: 32px;
+	margin-bottom: 10px;
+}
+
+.welcome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+}
+
+.my-title {
+	width: 210px;
+    background-color: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+	color: #3677fd;
+	font-family: 'Lato', sans-serif;
+	font-size: 45px;
+	font-weight: 100;
+	line-height: 35.12px;
+	margin-top: 98px;
+}
+
+.about {
+	width: 1069px;
+	color: #5a5a5a;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 35px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.second {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color: #f1f8ff;
+}
+
+.main-div {
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 60%;
+	margin: 50px 0 50px 0; 
+}
+
+.web {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.icon{
+	width: 140px;
+	height: 140px;
+	text-align: center;
+}
+
+.title {
+	width: 232px;
+	height: 18px;
+	color: #3677fd;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.info {
+	width: 355px;
+	height: 85px;
+	color: #5a5a5a;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 35px;
+	text-align: center;
+}
+
+.third {
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	background-color: white;
+}
+
+.second-div {
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 60%;
+	margin: 0 auto; 	
+}
+
+.clients-div {
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-around;
+	align-items: center;
+	filter: grayscale(100%);
+	opacity: 30%;
+	width: 50%;
+	margin-bottom: 30px; 
+}
+
+footer {
+	width: 100%;
+	background-color:#3695ff;
+    background-image: linear-gradient(45deg, #3695ff 20%, #469dff 20% 40%, #4098ff 40% 60%, #3c89fe 60% 80%, #357afd 80%);	
+}
+
+.end {
+ 	display: flex;
+	flex-direction: row; 
+	justify-content: center;
+	align-items: center;
+}
+
+.need {
+	width: 870px;
+	height: 47px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 65px;
+}
+
+.end-button {
+	width: 204px;
+	height: 55px;
+	border-radius: 28px;
+	border: 0;
+	background-color: #ffffff;
+	color: #3695ff;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.end-button:hover {
+	background-color: #2e6da4;
+	color: white; 
+}
